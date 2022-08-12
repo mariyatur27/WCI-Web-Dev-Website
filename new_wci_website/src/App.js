@@ -7,12 +7,14 @@ import Goals from './components/goals';
 import Footer from './components/footer';
 import Team from './components/team';
 import Faq from './components/faq';
+import Popup from './components/popup';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Popup />
       <Router>
         <Routes>
           <Route path='/team' 

@@ -249,6 +249,7 @@ img.logo-2 {
 .question{
   font-weight: 700;
   color: #efb087;
+  font-size: x-large;
 }
 .answer {
   padding: 2%;
@@ -260,10 +261,30 @@ img.logo-2 {
 .ele-1 a {
   width: 100%;
 }
+div#popup-section {
+  position: fixed;
+  background: rgb(187, 213, 247);
+  width: 25%;
+  top: 70%;
+  right: 1%;
+  padding: 1%;
+  border-radius: 13px;
+}
+.left-align {
+  display: flex;
+  padding: 1%;
+}
+#popup-section h2{
+  font-family: 'Roboto Mono', monospace;
+}
 /* For Mobiles */
 @media (max-width: 765px) {
   .ele-1 , .ele-2 {
     display: none;
+  }
+  div#popup-section {
+    width: 96%;
+    top: 74%;
   }
   .primary-text {
     font-size: 400%;
@@ -389,5 +410,8 @@ img.logo-2 {
     padding-bottom: 2%;
     text-align: center;
     border-radius: 12px;
+  }
+  div#popup-section {
+    width: 40%;
   }
 }
