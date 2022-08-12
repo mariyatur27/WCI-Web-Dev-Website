@@ -1,6 +1,7 @@
 {
   "name": "new_wci_website",
   "version": "0.1.0",
+  "homepage": "https://www.wciweb-dev.ca",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
