@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d1fb6a6.css",
+    "main.js": "/static/js/main.d96a7f06.js",
+    "static/media/club_logo.png": "/static/media/club_logo.77d3190d0bc83eee6261.png",
+    "index.html": "/index.html",
+    "main.3d1fb6a6.css.map": "/static/css/main.3d1fb6a6.css.map",
+    "main.d96a7f06.js.map": "/static/js/main.d96a7f06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d1fb6a6.css",
+    "static/js/main.d96a7f06.js"
+  ]
+}
