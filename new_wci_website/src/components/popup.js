@@ -11,7 +11,7 @@ export default function Popup() {
   return (
     <div id='popup-section'>
         <div className='left-align'>
-            <FontAwesomeIcon icon={faXmark} onClick={close}/>
+            <FontAwesomeIcon icon={faXmark} onClick={close} className='cursor-style' />
         </div>
         <h2>Hey! Check this out...</h2>
         <h5 style={{fontWeight: '100'}}>Last year, WCI Web Dev paired with Leadership and together, we created an official WCI Extracurriculars website for our school. By joining our club, you will have a chance to make an impact on our school community as well!</h5>

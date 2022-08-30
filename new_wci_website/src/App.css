@@ -153,6 +153,9 @@ div#changing-words-block {
 .highlight-3{
   background-color: rgb(222, 140, 236);
 }
+.cursor-style{
+  cursor: pointer;
+}
 .centered{
   display: flex;
   justify-content: center;
@@ -164,8 +167,11 @@ div#changing-words-block {
   width: 65%;
   font-size: x-large;
 }
-#singular-btn{
-  width: 15%;
+.singular-btn{
+  width: 50%;
+  margin-right: 0%;
+  padding: 3% 2%;
+  margin-top: 12%;
 }
 .js-charts{
   display: flex;
@@ -194,12 +200,12 @@ h2.sub-title {
   border: none;
   border-radius: 17px;
   padding: 4% 2%;
-  padding-bottom: 11%;
+  padding-bottom: 5%;
 }
 .team-img {
-  width: 65%;
+  width: 72%;
   margin: 0%;
-  border-radius: 50%;
+  border-radius: 12px;
 }
 .centered h3{
   font-family: 'Roboto Mono', monospace;
@@ -265,7 +271,7 @@ div#popup-section {
   position: fixed;
   background: rgb(187, 213, 247);
   width: 25%;
-  top: 70%;
+  top: 55%;
   right: 1%;
   padding: 1%;
   border-radius: 13px;
@@ -277,14 +283,22 @@ div#popup-section {
 #popup-section h2{
   font-family: 'Roboto Mono', monospace;
 }
+div#team-section {
+  padding-top: 5%;
+}
+
 /* For Mobiles */
 @media (max-width: 765px) {
   .ele-1 , .ele-2 {
     display: none;
   }
+  .singular-btn {
+    width: 57%;
+    margin-top: 5%;
+  }
   div#popup-section {
     width: 96%;
-    top: 74%;
+    top: 65%;
   }
   .primary-text {
     font-size: 400%;
@@ -324,8 +338,8 @@ div#popup-section {
   .team-member {
     margin: 4%;
     width: 65%;
-    padding: 10% 2%;
-    padding-bottom: 25%;
+    padding: 8% 2%;
+    padding-bottom: 4%;
   }
   .row-center {
     margin-top: 10%;

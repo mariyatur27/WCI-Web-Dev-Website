@@ -22,8 +22,10 @@ export default function Goals() {
         <div className='centered'>
             <h2 className='sub-title'>Want to help us achieve our goals?</h2>
         </div>
-        <div className='centered'>
-            <a href='https://forms.gle/7sTjTuZcdezMRDNN9' style={{width:'100%'}}><button className='primary-btn' id='singular-btn'>Join Our Club</button></a>
+        <div className='centered row'>
+            <a href='https://forms.gle/7sTjTuZcdezMRDNN9' style={{width:'30%'}} target='_blank'><button className='primary-btn singular-btn' id=''>Join Our Club</button></a>
+            <a href='https://classroom.google.com/c/MzE3ODQxMTY3NDU3?cjc=k2uhtee' style={{width:'30%'}} target='_blank'><button className='primary-btn singular-btn' id=''>Join Our Classroom</button></a>
+            <a href='https://www.instagram.com/wci_web_dev/' style={{width:'30%'}} target='_blank'><button className='primary-btn singular-btn' id=''>Join Our Instagram</button></a>
         </div>
     </div>
   )
