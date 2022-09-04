@@ -4,12 +4,18 @@ import { faArrowRight, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 export default function Popup() {
 
+    const showPopup = () => {
+      document.getElementById('popup-section').classList.toggle('hide')
+    }
+
+    window.onload = setTimeout(showPopup , 5000)
+
     const close = () => {
         document.getElementById('popup-section').classList.toggle('hide')
     }
 
   return (
-    <div id='popup-section'>
+    <div id='popup-section' className='hide'>
         <div className='left-align'>
             <FontAwesomeIcon icon={faXmark} onClick={close} className='cursor-style' />
         </div>
