@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ea0d1dce.css",
-    "main.js": "/static/js/main.a361751b.js",
+    "main.js": "/static/js/main.77541034.js",
     "static/media/IMG-3775.jpg": "/static/media/IMG-3775.3097b15fbb5d0051bea4.jpg",
     "static/media/IMG-3071.jpg": "/static/media/IMG-3071.170aabcf90a88416c12b.jpg",
     "static/media/nuha-IMG.jpg": "/static/media/nuha-IMG.29e8b1665270aa448029.jpg",
     "static/media/club_logo.png": "/static/media/club_logo.77d3190d0bc83eee6261.png",
     "index.html": "/index.html",
     "main.ea0d1dce.css.map": "/static/css/main.ea0d1dce.css.map",
-    "main.a361751b.js.map": "/static/js/main.a361751b.js.map"
+    "main.77541034.js.map": "/static/js/main.77541034.js.map"
   },
   "entrypoints": [
     "static/css/main.ea0d1dce.css",
-    "static/js/main.a361751b.js"
+    "static/js/main.77541034.js"
   ]
 }
